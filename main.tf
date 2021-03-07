@@ -1,7 +1,7 @@
 resource "aws_s3_bucket" "b" {
   bucket = var.bucket
   acl    = var.acl
-  tags   = var.tags
+
 
   server_side_encryption_configuration {
     rule {
